@@ -1,0 +1,19 @@
+<body>
+<div id="your_question">
+<%= params[:question] %>
+<p>-You</p>
+</div>
+
+<div id="coach_answer">
+<% if params[:question] == "I am going to work" %>
+<strong><%= p 'Great!' %></strong>
+<% elsif params[:question].ends_with?('?') %>
+<strong><%= p 'Silly question, get dressed and go to work!' %></strong>
+<% else %>
+<strong><%= p "I don't care, get dressed and go to work!" %></strong>
+<% end %>
+<p><em>-Your coach</em></p>
+</div>
+
+<p id="go_back"><%= link_to "Ask another question", ask_path %></p>
+</body>

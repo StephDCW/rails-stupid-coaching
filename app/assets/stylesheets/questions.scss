@@ -1,0 +1,32 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#coach_answer {
+  background-color: #FFFFE1;
+}
+
+#go_back :hover {
+  color: blue;
+  text-decoration: none;
+}
+
+#your_question {
+  border-left: solid 8px #DDDDDD;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#coach_answer {
+  border-left: solid 8px #DDDDDD;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+body {
+  font-family: Sans-serif;
+  h1 {
+  font-size: 40px;
+}
+}
